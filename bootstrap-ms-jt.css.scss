@@ -1,28 +1,5 @@
-// Bootstrap Mid-Small - col-ms-* - the missing grid set for Bootstrap3.
-//
-// This is a hack to fill the gap between 480 and 760 pixels - a missing range
-// in the bootstrap responsive grid structure.  Use these classes to style pages
-// on cellphones when they transition from portrait to landscape.
-//
-// NOTE: Here I use SASS instead of LESS for styling.  To convert to LESS
-// replace '$screen' with '@screen' and '$grid' with '@grid'.
-//
-// See https://github.com/twbs/bootstrap/issues/10203 for more info.
-//
-// Columns, offsets, pushes, and pulls for the ms device range, from phones
-// to tablets.
-//
-// Note that `.col-ms-12` doesn't get floated on purposeâ€”there's no need since
-// it's full-width.
-
-
 @import 'bootstrap';
 
-// ----- common styles - from twbs/bootstrap/blob/master/less/grid.less -----
-
-
-//  0 -> xs| -> jt| -> ms| -> sm|
-//  0    480    550    780    992 
 
 $grid-columns: 12;
 $grid-gutter-width: 30px;
